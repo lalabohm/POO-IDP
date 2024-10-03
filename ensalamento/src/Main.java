@@ -3,21 +3,18 @@ import java.util.List;
 
 public class Main {
     public static void main(String[] args) {
-        // Cursos
+  
         Curso ti = new Curso("TI");
         Curso adm = new Curso("ADM");
 
-        // Disciplinas
         Disciplina poo = new Disciplina("POO", ti);
         Disciplina estruturaDados = new Disciplina("Estrutura de Dados", ti);
         Disciplina bi = new Disciplina("BI", adm);
 
-        // Professores
         Professor profMia = new Professor("Mia", poo);
         Professor profSaulo = new Professor("Saulo", estruturaDados);
         Professor profPaula = new Professor("Paula", bi);
 
-        // Alunos
         List<Aluno> alunos = new ArrayList<>();
         alunos.add(new Aluno("Alfredo", ti));
         alunos.add(new Aluno("Amélia", ti));
