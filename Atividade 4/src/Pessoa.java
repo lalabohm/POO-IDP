@@ -1,6 +1,6 @@
 public abstract class Pessoa {
-    public String nome;
-    public Data nascimento;
+    protected String nome;
+    protected Data nascimento;
 
     public Pessoa(String nome, Data nascimento){
         this.nome = nome;
