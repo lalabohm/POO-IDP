@@ -22,7 +22,7 @@ Este projeto implementa um sistema para agrupar e gerenciar cidades por Unidade 
 
 ---
 
-## **🔧 Como Funciona
+## **🔧 Como Funciona**
 
 ### Classes Principais
 - **AgrupadorCidades**: Gerencia o agrupamento e ordenação das cidades.
